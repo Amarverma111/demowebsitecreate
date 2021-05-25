@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Muli', sans-serif;
+}
+.nav_style
+{
+	background: #fff;
+	box-shadow: 0 10px 30px 0 rgba(138,155,165,0.15);
+
+}
+
+
+.navbar-brand
+{
+	width: 300px;
+	height: 90px;
+
+
+}
+.navbar-nav li a{
+	letter-spacing:2px;
+
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	position: relative;
+
+}
+.navbar-nav li a:before
+{
+	content: ' ';
+	position: absolute;
+	top:100%;
+	bottom: 50%;
+	width: 0%;
+	height: 3%;
+	background: #ff7230;
+	transition: all 0.3s linear;
+}
+
+.navbar-nav li a:hover:before
+{
+	width: 80%;
+}
+
+.navbar-nav li a:hover
+{
+	color: #ff7230 !important;
+}
+
+@media(max-width:998px)
+{
+	.navbar-nav
+	{
+		margin-top:50px  !important; 
+		text-align: center  !important; 
+	}
+
+	.navbar-nav li a:hover:before
+{
+	width: 0%;
+}
+
+}
+
+.back
+{
+	background-color: #ff7230;
+		color: white;
+		border-radius: 20px;
+}
+.back:hover
+{
+	background-color: black;
+	color: white;
+}
+
+
+	/* how its work section*/
+
+.backs
+{
+	background-color: #ff7230;
+		color: white;
+		
+		width:200px;
+		margin-left: 550px;
+
+}
+.backs:hover
+{
+	background-color: black;
+	color: white;
+
+}
+
+.container-fluid
+{
+	background-color: white;
+}
+
+.how-text
+{
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+
+}
+.text-national
+{
+	font-weight: bold;
+}
+li
+{
+	list-style-type: none;
+	font-weight: bold;
+}
+i
+{
+	text-align: center;
+	color: #ff7230;
+
+}
+.how-font
+{
+	font-weight: bold;
+}
+/*
+
+@media screen and (max-width: 767px)
+{
+	.backs{
+		margin-left: 162px;
+	}
+}
+@media only screen and (max-width: 470px)
+{
+	.backs
+	{
+		margin-left: 100px;
+	}
+}
+
+@media only screen and (max-width: 900px)
+{
+	.backs
+	{
+		margin-left: 220px;
+	}
+}
+
+
+	*/
+
+/* animation text css */
+
+
+
+/* end */
+
+
